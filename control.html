@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<!--
+Control System page
+-->
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<!-- Makes the site responsive on phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Our Control System</title>
+
+<!-- Google Font used for page title -->
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+
+<!-- Link to main stylesheet -->
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<!-- =====================================================
+HEADER / NAVIGATION
+===================================================== -->
+
+<header>
+
+<div class="container navbar">
+
+<img src="images/steveSanghiWhiteLogo.png" class="logo" alt="Engineering Department Logo">
+
+<div class="hamburger" id="hamburger">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</div>
+
+<ul class="nav-links" id="navLinks">
+<li><a href="index.html">Home</a></li>
+<li><a href="team.html">Meet the Team</a></li>
+<li><a class="active" href="control.html">Control System</a></li>
+<li><a href="testing.html">Testing</a></li>
+<li><a href="launches.html">Launches</a></li>
+<li>
+<a href="https://sce.nau.edu/capstone/projects/ME/2026/F25toSp26_Rocket/" target="_blank">
+Mechanical Engineering Team
+</a>
+</li>
+</ul>
+
+</div>
+
+<div class="side-panel" id="sidePanel">
+<div class="side-panel-content">
+<ul class="mobile-nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="team.html">Meet the Team</a></li>
+<li><a class="active" href="control.html">Control System</a></li>
+<li><a href="testing.html">Testing</a></li>
+<li><a href="launches.html">Launches</a></li>
+<li>
+<a href="https://sce.nau.edu/capstone/projects/ME/2026/F25toSp26_Rocket/" target="_blank">
+Mechanical Engineering Team
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+</header>
+
+
+<!-- =====================================================
+PAGE TITLE
+===================================================== -->
+
+<h1 class="page-title">Our Control System</h1>
+
+
+<!-- =====================================================
+DESCRIPTION
+===================================================== -->
+
+<div class="description">
+<p>
+The ultimate goal of this project is to control the spin of the rocket on the way up. Rockets can be controlled by various means such as 
+<a href="https://en.wikipedia.org/wiki/Cold_gas_thruster" target="_blank">cold gas thrusters</a>, 
+<a href="https://en.wikipedia.org/wiki/Thrust_vectoring" target="_blank">thrust vectoring</a>, 
+and what we chose for our project, fin actuation.
+</p>
+</div>
+
+
+<!-- =====================================================
+PROS AND CONS SECTION
+===================================================== -->
+
+<section class="container pros-cons-section">
+
+<div class="pros-cons-grid">
+
+<!-- Pros Column -->
+<div class="pros-column">
+<h2 class="pros-title">Pros of Fin Actuation</h2>
+
+<div class="pros-cons-item">
+<h3>Lightweight</h3>
+<p>Less weight means the rocket is more efficient</p>
+</div>
+
+<div class="pros-cons-item">
+<h3>Inexpensive</h3>
+<p>With an already tight budget, saving money is always helpful</p>
+</div>
+
+<div class="pros-cons-item">
+<h3>Widely Used</h3>
+<p>With plenty of other work and documentation to refer to we can more easily overcome challenges</p>
+</div>
+
+<div class="pros-cons-item">
+<h3>Simple</h3>
+<p>Easy to understand on an intuitive level</p>
+</div>
+
+</div>
+
+<!-- Cons Column -->
+<div class="cons-column">
+<h2 class="cons-title">Cons of Fin Actuation</h2>
+
+<div class="pros-cons-item">
+<h3>Can Change Multiple Axes</h3>
+<p>It can be easy to steer the rocket in an undesirable direction</p>
+</div>
+
+<div class="pros-cons-item">
+<h3>Variable with Rocket Velocity</h3>
+<p>As the rocket slows the amount of steering from the fins lessens</p>
+</div>
+
+<div class="pros-cons-item">
+<h3>Difficult to Ground Test</h3>
+<p>Since the rocket can reach speeds of up to 500 mph and the fins depend on wind speed to steer, it will be especially difficult to test this prior to the final launch</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+FIN ACTUATION DESIGN IMAGES
+===================================================== -->
+
+<section class="container design-section">
+<h2 class="section-heading">Fin Actuation Mechanism Designs</h2>
+
+<div class="design-grid">
+<!-- Placeholder for design images -->
+<div class="design-card">
+<img src="images/placeholder1.jpg" alt="Fin actuation design 1">
+<p class="design-caption">Design Concept 1</p>
+</div>
+
+<div class="design-card">
+<img src="images/placeholder2.jpg" alt="Fin actuation design 2">
+<p class="design-caption">Design Concept 2</p>
+</div>
+
+<!-- Add more design cards as needed -->
+</div>
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

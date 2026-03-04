@@ -1,0 +1,21 @@
+aiPrompt
+make me a boiler plate for my website for my capstone project for senior year of university. i want it to be professional looking, clean, and easily expandable with detailed comments written so that someone who doesn't know html or css can get an idea what the code is doing and be able to expand it. all images are located in the images folder.
+
+the header on all pages from right to left has a logo for my school's engineering department (steveSanghiWhiteLogo.png 1200x300px), and text to click on for each page: Home, Meet the Team, Control System, Testing, Launches, and Mechanical Engineering Team (hyperlink to https://sce.nau.edu/capstone/projects/ME/2026/F25toSp26_Rocket/ opens in new tab for the mechanical engineering page) the text is white within the header. the header background is navy blue #002454 and the selected page is gold #fac01a. these colors are school colors and from now on when i say navy blue or gold it refers to those specific hex colors. when you hover over a page in the header it is underlined gold. header has margins on the left and right side so that the page titles have the same margin to the right of the right-most page title as the left of the logo with the logo equally spaced from the left-most page title as the page titles are spaced from each other.
+all pages have the background color #e5e5e5, with the title being navy blue.
+
+
+the home page is the landing page and is titled Active Rocket Control System (return character)
+for High-Powered Rockets (font google's IBMPlexSerif 56px size, center alligned) on mobile i want this to be smaller so as not to take up more than 2 lines.
+the page has a body text saying:
+"Our project aims to design, build, and test a model rocket capable of autonomous stabilization and precise flight data collection. Using onboard sensors and an inertial measurement unit (IMU), the system continuously monitors the rocket’s orientation and applies real-time corrections through a PID-based control loop to maintain stable ascent within ±2° of the vertical axis. 
+The design integrates structural, electrical, and software subsystems, following NASA and Tripoli Rocketry guidelines. The rocket houses the control electronics, power system, and telemetry hardware to log acceleration, altitude, and orientation data. 
+By combining mechanical design, control theory, and embedded programming, this project demonstrates practical aerospace engineering applications in flight dynamics, sensor fusion, and control systems. The final prototype will undergo launch testing to validate performance against engineering requirements for stability, payload integrity, and data reliability."
+this text is also centered but in small but easily readable font size but i want it to also be reasonably sized for mobile
+
+below this text i want to have 2 pictures portrait each with an interactive text box below. on computer i want these to be side by side, and on mobile i want them to be stacked on top of each other
+flightComputerPrototype.jpg with a cut-off description: This is our first prototype for the flight computer... so that when the user clicks to expand the text it brings them to the testing page
+
+the other picture is for the control system page, mechanicalArmPrototype.jpg with a cut-off description: This is our first prototype for the mechanical arm... so that when the user clicks to expand the text it brings them to the control system page.
+
+lastly i want a video thumbnail for the launches page below the two pictures. i have a video of the recorded launch rocketLaunch1.mp4 480x270px i want the video to have rounded edges and be dark with an overlayed white text that says "hover over to play. click to see more about the launches" and i want it to play the whole video. i want the video to loop while your mouse is hovering over it, and if you click it it takes you to launches page.

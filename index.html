@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<!--
+Main landing page for the capstone project
+-->
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<!-- Makes the site responsive on phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Active Rocket Control System</title>
+
+<!-- Google Font used for the title -->
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+
+<!-- Link to main stylesheet -->
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body>
+
+<!-- =====================================================
+HEADER / NAVIGATION
+Appears on every page
+===================================================== -->
+
+<header>
+
+<div class="container navbar">
+
+<!-- Engineering department logo -->
+<img src="images/steveSanghiWhiteLogo.png" class="logo" alt="Engineering Department Logo">
+
+<!-- Hamburger menu button for mobile -->
+<div class="hamburger" id="hamburger">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</div>
+
+<!-- Navigation menu -->
+<ul class="nav-links" id="navLinks">
+
+<li><a class="active" href="index.html">Home</a></li>
+
+<li><a href="team.html">Meet the Team</a></li>
+
+<li><a href="control.html">Control System</a></li>
+
+<li><a href="testing.html">Testing</a></li>
+
+<li><a href="launches.html">Launches</a></li>
+
+<li>
+<a href="https://sce.nau.edu/capstone/projects/ME/2026/F25toSp26_Rocket/"
+target="_blank">
+Mechanical Engineering Team
+</a>
+</li>
+
+</ul>
+
+</div>
+
+<!-- Side panel for mobile menu -->
+<div class="side-panel" id="sidePanel">
+<div class="side-panel-content">
+<ul class="mobile-nav-links">
+<li><a class="active" href="index.html">Home</a></li>
+<li><a href="team.html">Meet the Team</a></li>
+<li><a href="control.html">Control System</a></li>
+<li><a href="testing.html">Testing</a></li>
+<li><a href="launches.html">Launches</a></li>
+<li>
+<a href="https://sce.nau.edu/capstone/projects/ME/2026/F25toSp26_Rocket/"
+target="_blank">
+Mechanical Engineering Team
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+</header>
+
+
+<!-- =====================================================
+PAGE TITLE
+===================================================== -->
+
+<h1 class="page-title">
+Active Rocket Control System
+for High-Powered Rockets
+</h1>
+
+
+<!-- =====================================================
+DESCRIPTION
+===================================================== -->
+
+<div class="description">
+
+<p>
+Our project aims to design, build, and test a model rocket capable of autonomous stabilization and precise flight data collection. Using onboard sensors and an inertial measurement unit (IMU), the system continuously monitors the rocket’s orientation and applies real-time corrections through a PID-based control loop to maintain stable ascent within ±2° of the vertical axis.
+</p>
+
+<br>
+
+<p>
+The design integrates structural, electrical, and software subsystems, following NASA and Tripoli Rocketry guidelines. The rocket houses the control electronics, power system, and telemetry hardware to log acceleration, altitude, and orientation data.
+</p>
+
+<br>
+
+<p>
+By combining mechanical design, control theory, and embedded programming, this project demonstrates practical aerospace engineering applications in flight dynamics, sensor fusion, and control systems. The final prototype will undergo launch testing to validate performance against engineering requirements for stability, payload integrity, and data reliability.
+</p>
+
+</div>
+
+
+<!-- =====================================================
+VIDEO PREVIEW
+===================================================== -->
+
+<div class="video-section">
+
+<div class="video-container">
+
+<video
+id="launchPreview"
+class="video-preview"
+src="images/rocketLaunch1.mp4"
+muted>
+</video>
+
+<div class="video-overlay">
+<img src="images/playButtonIcon.png" alt="Play" class="play-button">
+</div>
+
+<button class="mute-button muted" id="muteButton" title="Unmute"></button>
+
+</div>
+
+<div class="video-caption">
+Click here to see more about the launches
+</div>
+
+</div>
+
+
+<!-- Script for interactivity -->
+<script src="script.js"></script>
+
+</body>
+</html> 
